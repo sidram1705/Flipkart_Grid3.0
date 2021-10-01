@@ -1,2 +1,4 @@
 # Flipkart_Grid3.0
 This repository contains my attempt for Flipkart Grid 3.0 robotics competition. The solution in the repo is for the 1st round and contains a solution based on opencv.
+
+The first round required the bot to travel through it's respective track, fully automated and supposed to start, turn and stop in the respective boxes(visible in the problem statement pdf). The idea in the following code was to create an ROI(Region of interest). Depending on what ROI the bot is in, an individual command is being returned. The bot is being detected in the ROI through the help of the tracker.py codes, which detect moving objects in the place it is being implemented. The problem that couldn't be fixed in the code was that the tracker was not functioning for different ROI's which belonged to the other robots.
